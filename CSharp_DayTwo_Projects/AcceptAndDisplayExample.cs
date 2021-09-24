@@ -94,8 +94,6 @@ namespace CSharp_DayTwo_Projects
             obj.AcceptDetails();
             obj.DisplayDetails();
             obj.Calculate();
-
-            Console.WriteLine(obj.ObjectiveMarks);
             
             Console.ReadKey();
         }

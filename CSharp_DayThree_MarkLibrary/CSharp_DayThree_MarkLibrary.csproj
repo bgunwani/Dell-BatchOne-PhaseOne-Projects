@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CSharp_DayThree_StudentLibrary\CSharp_DayThree_StudentLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
