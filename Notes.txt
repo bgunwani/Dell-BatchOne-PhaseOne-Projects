@@ -1,0 +1,141 @@
+
+
+
+Programming with C#.NET:
+
+	- C#.NET is one of the Microsoft programming languages.
+	- This is Object-Orinted Programming Language.
+	- This helps in creating different applications:
+		1. Console Application (Console - Supported)
+		2. Windows Application
+		3. Web Application
+		4. Mobile Application
+		5. IoT Application and so on.
+	
+	
+.NET Framework:
+
+	- .NET Framework is a multi-lingual framework.
+	- This supports multiple programming languages
+		such as C#.NET, VB.NET, F#.NET and J#.NET
+	- .NET Framework is not completely open-source.
+	- Applications developed by .NET Framework can run on Windows.
+		
+.NET Core:
+
+	- .NET Core is a multi-lingual platform.
+	- This supports multiple programming languages
+		such as C#.NET, VB.NET, F#.NET and J#.NET
+	- .NET Core is completely open-source.
+	- Applications developed by .NET Core can run on Windows, Linux or Mac.
+	
+-------------------------------------------------------------------------
+
+	Input -> Process -> Output
+	
+	C Programming: 
+		scanf and printf - Header File (stdio.h)
+		
+	C++ Programming:
+		cin and cout - Header File (iostream.h)
+		
+-------------------------------------------------------------------------
+
+	- C#.NET is one of the Microsoft programming languages.
+	- This is Object-Orinted Programming Language.
+	- This helps in creating different applications:
+		1. Console Application (Console - Supported)
+		2. Windows Application
+		3. Web Application
+		4. Mobile Application
+		5. IoT Application and so on.
+		
+	Namespace -> Class - Properties and Methods
+	
+	Namespace: System
+	Class: Console
+	Output Methods: Write() and WriteLine()
+	Input Methods: Read() and ReadLine()
+	
+	System.Console.WriteLine();
+	
+	Here, 
+	Namespace - A collection of classes, interfaces, events and so on.
+	Class - A collection of Data Members (Properties) and Member Function(Method)
+	
+-------------------------------------------------------------------------
+
+	byte, short(16), int(32), long(64)
+	
+	
+
+-------------------------------------------------------------------
+
+Exception Handling
+Indexers
+File Handling
+Misc Types
+	Annonymous Type
+	Var Type
+	Object Type
+	Dynamic Type
+	Var vs. Object vs. Dynamic
+	Tuple
+
+-------------------------------------------------------------------
+
+Errors:
+
+	1. Compile-Time Errors
+	
+		a. Syntactical Mistakes or If any keyword is misspelled.
+		b. Sementic Error or Invalid Expressions. i.e.,
+			c = a + b; (Correct)
+			a + b = c; (Incorrect)
+	
+	2. Logical Errors
+	
+		Occurs when we don't get the exepected output. this doesn't terminate or intruppt the application at all. Example,
+		
+		100%2==0 ? "Even": "Odd" : (There is no logical error.)
+		100/2==0 ? "Even": "Odd" : (There is logical error.)
+	
+	3. Run-Time Errors (Exceptions)
+	
+		Errors occurs at the execution. These errors abnormally terminates the program. They are known as exceptions.
+		
+		Exceptions generally occur when an user enters unexpected inputs or it depends on external resources such as File System, Dataabase or Network.
+
+Exception Handling:
+
+	Exception Handling consist of following blocks and statements:
+	
+	try: It allows the program to throw an error whenver it encounters one. This block consists the code where chances of getting exceptions are high.
+	
+	catch: When try block encounters an exception, it provides the control to the catch block to handle. A try block can be followed by multiple catch blocks also.
+	
+	finally: This blocks gets executed every time whether an exception occurs or not. Generally, we write a cleanup or deallocation code in finally.
+	
+	throw: Helps in throwing an explicit exception.
+
+------------------------------------------------------------------
+
+Indexers:
+
+	- Allows instances of a class to be indexed in a same way as array.
+	- Unlike properties, this keyword is used to define an indexer.
+	- Indexers can be overloaded.
+	- Unlike Arrays, you cannot pass an indexer as ref or out parameters.
+	
+----------------------------------------------------------------
+
+File Handling:
+
+	- To save the information permanently on the disk or reading information from the saved file through C# is knowns as File Handling. File Handling uses a streams to save or retrieve information.
+	
+	Namespace: System.IO
+	
+	FileStream Class:
+		File Modes: (Append, Create, CreateNew, Open, OpenOrCreate, Truncate)
+		FileAccess: Read, Write, ReadWrite
+		
