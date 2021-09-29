@@ -7,15 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp_DayOne_Projects", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp_DayTwo_Projects", "CSharp_DayTwo_Projects\CSharp_DayTwo_Projects.csproj", "{9F6AC30A-8AB1-4E4E-9515-67904886CA8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_DayThree_Projects", "CSharp_DayThree_Projects\CSharp_DayThree_Projects.csproj", "{F1294282-4FEE-4D63-B893-4155F25421C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp_DayThree_Projects", "CSharp_DayThree_Projects\CSharp_DayThree_Projects.csproj", "{F1294282-4FEE-4D63-B893-4155F25421C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_DayThree_StudentLibrary", "CSharp_DayThree_StudentLibrary\CSharp_DayThree_StudentLibrary.csproj", "{EFDA13B1-C1CF-4FF9-89FC-07F7F5944060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp_DayThree_StudentLibrary", "CSharp_DayThree_StudentLibrary\CSharp_DayThree_StudentLibrary.csproj", "{EFDA13B1-C1CF-4FF9-89FC-07F7F5944060}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_DayThree_MarkLibrary", "CSharp_DayThree_MarkLibrary\CSharp_DayThree_MarkLibrary.csproj", "{6DD39F70-3F6D-44FB-A100-BFC401CDE22F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp_DayThree_MarkLibrary", "CSharp_DayThree_MarkLibrary\CSharp_DayThree_MarkLibrary.csproj", "{6DD39F70-3F6D-44FB-A100-BFC401CDE22F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_DayThree_SportsLibrary", "SportsLibrary\CSharp_DayThree_SportsLibrary.csproj", "{0C10C3FC-43BB-47D4-BAF8-544F87552BEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp_DayThree_SportsLibrary", "SportsLibrary\CSharp_DayThree_SportsLibrary.csproj", "{0C10C3FC-43BB-47D4-BAF8-544F87552BEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_DayThree_ResultLibrary", "CSharp_DayThree_ResultLibrary\CSharp_DayThree_ResultLibrary.csproj", "{39773797-4ECC-4F25-834D-2BF152B4ED42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp_DayThree_ResultLibrary", "CSharp_DayThree_ResultLibrary\CSharp_DayThree_ResultLibrary.csproj", "{39773797-4ECC-4F25-834D-2BF152B4ED42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_DayFour_Projects", "CSharp_DayFour_Projects\CSharp_DayFour_Projects.csproj", "{34A9EB77-FD85-47BB-AB6F-C83B91756AB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{39773797-4ECC-4F25-834D-2BF152B4ED42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39773797-4ECC-4F25-834D-2BF152B4ED42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39773797-4ECC-4F25-834D-2BF152B4ED42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A9EB77-FD85-47BB-AB6F-C83B91756AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A9EB77-FD85-47BB-AB6F-C83B91756AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A9EB77-FD85-47BB-AB6F-C83B91756AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A9EB77-FD85-47BB-AB6F-C83B91756AB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
