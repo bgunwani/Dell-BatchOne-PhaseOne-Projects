@@ -139,3 +139,73 @@ File Handling:
 		File Modes: (Append, Create, CreateNew, Open, OpenOrCreate, Truncate)
 		FileAccess: Read, Write, ReadWrite
 		
+----------------------------------------------------------------
+
+
+Arrays:
+
+	A collection of homogenous or same types of elements.
+	Elements are accessible by a index number which starts from _ and goes to n-1, where n is the size of the array.
+	
+Types of Arrays:
+
+	1. One-Dimensional Arrays
+	2. Two-Dimensional Arrays
+	3. Jagged-Arrays
+	
+------------------------------------------------------
+
+Stack: Last In First Out (LIFO) OR First In Last Out (FILO)
+
+	- Implement UNDO Feature
+	- Build Compilers (Syntax Checking)
+	- Evaluating Expression
+	- Build Navigation (Forward/Backward)
+	
+Operations:
+
+	- Push(item) : Insert the Item from top.
+	- Pop		 : Remove the Item from top.
+	- Peek()	 : Tell you which Item is ready to Pop.
+	- isEmpty()	 : To check whether stack is empty or not.
+	
+--------------------------------------------------------
+
+Queue:	FIFO (First In First Out)
+
+	- Printer
+	- Operating System
+	- Web Server
+	- Live Support System
+	
+Operations:
+
+	- Enqueue	: To insert the element into the queue. (Rear)
+	- Dequeue	: To remove element from the queue. (Front)
+	- Peek		: To check which element is ready to dequeue.
+	- isEmpty	: To check whether stack is empty or not.
+	- isFull	: To check whether stack is full or not.
+
+--------------------------------------------------------
+
+Data Structures: 
+
+	- To check performance of different algorithms to solve a problem and find out the most productive way.
+	
+	- Trade Off: Space Complexity, Time Complexity
+	
+--------------------------------------------------------
+
+Big O Notation:	
+	
+	We use Big O Notation to describe the performance of an algorithms.
+
+	Types of Notations:
+	
+		Constant: O(1)
+		Logarithmic O(log n)
+		Linear O(n)
+		Quadratic (n^2)
+		Exponential (2^n)
+		
+-----------------------------------------------------------
