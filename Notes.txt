@@ -209,3 +209,26 @@ Big O Notation:
 		Exponential (2^n)
 		
 -----------------------------------------------------------
+
+
+Out Variable:
+
+	- Before C# 7, out was the parameter.
+	- C# 7 onwards, with improved definitions, out is the variable.
+	
+Pattern Matching:
+
+	- To test a value whether the value has specific type or not.
+	- To implement pattern matching, we use 'is' expression.
+	
+Tuple:
+
+	- If you want to return more than one value from a method, we use Tuple.
+
+Expression Bodied Members:
+
+	- An expression body method consists a single expression.
+	- This method returns a value whose type matches the method return type, that performs some operation along with that.
+	
+Partial Classes:
+
