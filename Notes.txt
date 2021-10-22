@@ -232,3 +232,54 @@ Expression Bodied Members:
 	
 Partial Classes:
 
+------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------
+-------------------------------------------------------
+
+Ref Returns and Ref Locals:
+
+	In C#, we can pass the data and references to methods by three ways:
+	
+	1. Passing by Value
+	2. Passing by Reference
+	3. Passing by Out Parameter
+	
+Ref Locals: To store references locally within the method, we use Ref Locals.
+	
+Ref Returns: Returning reference from a method.
+	
+-------------------------------------------------------
+
+Generalized Async Return Types:
+
+Synchronous means Blocking Approach.
+Asynchronous means Non-Blocking Approach.
+
+When we work in Asynchronous Approarch, async method can have following return types:
+
+1. Task<TResult>: used when the async method returns a value.
+2. Task: used when the async method doesnt return any value. 
+3. Void: used for an event handler.
+
+--------------------------------------------------------
+
+Delegates:
+
+	- Type-Safe Function Pointer.
+	- It means they hold the reference of a method.
+	- Calls that method for execution at runtime.
+	
+Need of Delegates:
+
+	- To take decision at run time.
+	
+Types of Delegates:
+
+	- Single Cast Delegate
+	- Multi Cast Delegate
+	
+--------------------------------------------------------
+
+
+
